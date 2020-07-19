@@ -2,7 +2,7 @@
 
 hosts=""
 ssh_options=""
-tmux_name="cssh"
+tmux_name="cssh-$$"
 
 usage() {
     echo "Usage: $0 [options] host [host ...]" >&2
